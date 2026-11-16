@@ -66,3 +66,12 @@ A auditoria anterior citou 114 requisitos, dos quais 85 presentes, 18 parciais, 
 - **P-019 (atualização):** a comparação direta entre o legado v1.4 e o integrado v0.2 está **concluída quanto a IDs e textos**: 98/98 preservados; integrado com 141 verificações, 0 duplicatas. A equivalência operacional com ocorrências e manuais anteriores **ainda não está homologada**.
 - **P-038:** conferir se os 141 itens cobrem todos os requisitos textuais desta conversa e dos arquivos de fonte, principalmente detalhes de Impressão e Exportação não explicitados nos checklists antigos.
 - **P-039:** validar as três verificações do tipo `V` (`EXP-05`, `EXP-07`, `EXP-09`) antes de automação ou exigência universal.
+
+## Pendências de acervo e grids — revisão 0.8
+
+- **P-040:** validar tabela de nomes antigos e atuais de peças, mangas, golas e recortes antes de automatizar renomeações.
+- **P-041:** inspecionar versão vigente dos grids para confirmar ou descartar problemas históricos de camadas erradas, manga curta/longa e objeto duplicado.
+- **P-042:** verificar cobertura atual de modelos como cropped, futebol americano, agasalhos, bata, Long Line e Seleção FE, sem assumir disponibilidade pela anotação antiga.
+- **P-043:** confirmar interpretação e alcance da anotação de 8 cm em uma referência de telinha (Notes 2, p.27); não usar como medida atual.
+- **P-044:** continuar auditoria dos outros PDFs manuscritos e das versões de históricos que não constam integralmente dos arquivos compactos publicados.
+- **P-037 (atualização):** inspeção visual de Notes 2 **concluída para as 30 páginas** em AUD-006 e AUD-008; permanecem pontos de escrita ilegível e validação de contexto de pedidos, além de outras fontes.

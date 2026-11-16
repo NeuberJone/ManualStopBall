@@ -90,3 +90,10 @@ A comparação direta dos DOCX confirmou que os **98 itens do checklist legado v
 - [Auditoria de preservação dos códigos e textos](governanca/AUDITORIA-CHECKLIST-141-V0.7.md)
 
 Esses arquivos são transcrições de verificações, **não comprovam auditoria integral dos históricos** nem homologação dos valores pendentes.
+
+### Revisão documental 0.8 — grids e notas históricas
+
+- [POP 012 — Conferência de camadas, grids e nomes de moldes](docs/12-CAMADAS-GRIDS-MOLDES.md)
+- [AUD-008 — Auditoria visual do Notes 2 (30 páginas)](governanca/AUDITORIA-NOTES2-V0.8.md)
+
+A inspeção de **Notes 2** cobre as 30 páginas em duas rodadas (0.6 e 0.8). Não significa que todas as anotações manuscritas de outros PDFs estejam integralmente transcritas, nem que códigos antigos estejam homologados.
