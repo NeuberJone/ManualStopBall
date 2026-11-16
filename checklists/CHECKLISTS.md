@@ -165,3 +165,16 @@ Aplicar na passagem **entre todas as etapas**, além das verificações técnica
 - [ ] A liberação da etapa e o registro da versão executada foram preservados.
 
 **Origem:** anotações de sistema, criação e transferência de 2026, com alcance e situação discriminados em [AUD-006](../governanca/AUDITORIA-MANUSCRITOS-V0.6.md). Os status formais de software ainda exigem confirmação.
+
+## K. Checklist integral preservado por códigos — edição 0.7
+
+Este documento permanece como **resumo funcional por processo**. Para revisão item a item sem perda dos códigos originais, usar:
+
+| Parte | Conteúdo | Quantidade |
+|---|---|---:|
+| [Parte 1](INTEGRADO-141-PARTE-1.md) | Pedido, Layout, Grid e modelagens | 57 |
+| [Parte 2](INTEGRADO-141-PARTE-2.md) | Marcas, Escudos, SISBolt, Pós-processamento | 48 |
+| [Parte 3](INTEGRADO-141-PARTE-3.md) | Liberação, Exportação, Impressão | 36 |
+| **Total** | **141 verificações com IDs únicos** | **141** |
+
+A [Auditoria 0.7](../governanca/AUDITORIA-CHECKLIST-141-V0.7.md) confirmou a preservação de **98/98** itens do legado de Saída v1.4 no integrado v0.2. A referência anterior a cerca de 140 itens está corrigida.

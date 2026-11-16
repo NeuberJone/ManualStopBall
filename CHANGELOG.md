@@ -43,3 +43,12 @@ Todas as mudanças significativas na documentação do setor de arte são regist
 - Adicionado o POP de estado do pedido, cancelamentos, versões e liberações entre setores.
 - Reforçados os checklists de Layout, Saída, Exportação e Impressão contra pedidos e arquivos desatualizados.
 - Mantidos como **pendências**, e não novos padrões, medidas históricas de faixa/gola e possíveis regras de marca por categoria.
+
+## [0.7.0-draft] — 2026-11-16
+
+- Comparados diretamente os arquivos `CHK-DES-001 v1.4.docx` e `CHK-DES-GERAL-001 v0.2.docx`.
+- Confirmada a **preservação textual dos 98 itens legados**, seus códigos e a ausência de exclusões.
+- Corrigido o total do checklist integrado de 140 para **141 itens**, incluindo `EXP-GAB-01`.
+- Transcritos **141 itens com códigos únicos** em três arquivos Markdown por etapa.
+- Criada `governanca/AUDITORIA-CHECKLIST-141-V0.7.md`, com contagens por prefixo e tipo, limites de interpretação e pendências.
+- Atualizados índice, manual geral, resumo do checklist e registro de pendências.

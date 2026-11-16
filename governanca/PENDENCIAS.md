@@ -60,3 +60,9 @@ A auditoria anterior citou 114 requisitos, dos quais 85 presentes, 18 parciais, 
 - **P-035:** formalizar status de pedido (ativo, cancelado, revisado, em aprovação) e autoridade para reabertura/liberação.
 - **P-036:** confrontar divergências entre previsão impressa, campo do sistema e ordem do setor sem presumir qual está atualizado.
 - **P-037:** conferir páginas 1–16 e 24–30 de Notes 2 e os outros documentos manuscritos ainda não transcritos.
+
+## Situação da reconciliação de checklists — 0.7
+
+- **P-019 (atualização):** a comparação direta entre o legado v1.4 e o integrado v0.2 está **concluída quanto a IDs e textos**: 98/98 preservados; integrado com 141 verificações, 0 duplicatas. A equivalência operacional com ocorrências e manuais anteriores **ainda não está homologada**.
+- **P-038:** conferir se os 141 itens cobrem todos os requisitos textuais desta conversa e dos arquivos de fonte, principalmente detalhes de Impressão e Exportação não explicitados nos checklists antigos.
+- **P-039:** validar as três verificações do tipo `V` (`EXP-05`, `EXP-07`, `EXP-09`) antes de automação ou exigência universal.
