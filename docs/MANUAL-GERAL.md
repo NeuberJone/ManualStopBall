@@ -164,3 +164,11 @@ O checklist integrado `CHK-DES-GERAL-001 v0.2` contém **141 verificações**. A
 A auditoria do `Notes 2.pdf` encontrou ocorrências de **componentes em camadas erradas**, **mangas raglan curtas/longas confundidas** e **dianteiro de gola duplicado**. Antes e depois do SISBolt, a Saída deve conferir tipo, nome e camada de todas as peças e suas variantes.
 
 Consulte [POP-DES-012 — Camadas, grids e moldes](12-CAMADAS-GRIDS-MOLDES.md) e [AUD-008 — Notes 2](../governanca/AUDITORIA-NOTES2-V0.8.md). Referências históricas de dimensões, nomes de objetos e disponibilidade de tamanhos não devem ser promovidas a padrões atuais sem validação.
+
+## 16. Qualidade visual e integridade dos históricos (edição 0.9)
+
+A auditoria dos históricos identificou defeitos registrados **após imprimir**: emenda de manga aparente, contorno fino desaparecendo, texto pequeno de patrocinador não reproduzido e tonalidade de fundo divergente. São riscos que exigem conferência em mais de um setor; a etapa em que o erro aparece não determina automaticamente a causa.
+
+Consulte [POP-DES-013 — Qualidade pré-impressão](13-QUALIDADE-VISUAL-PRE-IMPRESSAO.md) e [AUD-009 — Auditoria de fontes](../governanca/AUDITORIA-FONTES-V0.9.md).
+
+Os ZIPs de conversa publicados no GitHub são **exportações compactas** e não representam a totalidade das versões históricas previamente fornecidas. O manual não deve ser declarado completamente auditado enquanto as versões maiores não forem reconciliadas.
