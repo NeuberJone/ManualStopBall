@@ -149,3 +149,12 @@ As fontes históricas apontam pedidos cancelados ainda visíveis, pedidos direci
 Consulte [POP-DES-011 — Estado do pedido e revisões](11-CONTROLE-STATUS-VERSOES-PEDIDOS.md) e [AUD-006 — Revisão complementar de manuscritos](../governanca/AUDITORIA-MANUSCRITOS-V0.6.md).
 
 O procedimento é uma **barreira preventiva proposta**, não prova que o software existente já forneça controle automático de status ou de revisão.
+
+## 14. Checklist integral e reconciliação — edição 0.7
+
+O checklist integrado `CHK-DES-GERAL-001 v0.2` contém **141 verificações**. A análise direta do checklist de Saída `CHK-DES-001 v1.4` confirmou a manutenção, com mesmo código e texto, de seus **98 itens**. A referência anterior a 140 itens era imprecisa.
+
+- [Checklist integral em três partes](../checklists/CHECKLISTS.md#k-checklist-integral-preservado-por-códigos--edição-07)
+- [Auditoria detalhada 0.7](../governanca/AUDITORIA-CHECKLIST-141-V0.7.md)
+
+**Limite da conclusão:** preservação entre os dois DOCX citados não significa cobertura integral de todos os históricos, fotos e procedimentos ainda em auditoria. As verificações marcadas `V` exigem validação técnica.
