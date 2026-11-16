@@ -193,3 +193,24 @@ As anotações em `Notes 2.pdf`, páginas 7–13, registram confusões de camada
 - [ ] Falha encontrada reabriu a conferência **integral do pedido e das sublistas**.
 
 **Escopo:** itens complementares ao checklist de 141 códigos, não reescrita retroativa dos códigos originais. A fonte é a [AUD-008](../governanca/AUDITORIA-NOTES2-V0.8.md).
+
+## M. Controle de integridade visual entre setores — edição 0.9
+
+**Layout**
+- [ ] Linhas de contorno e textos pequenos de patrocinadores são reproduzíveis no tamanho efetivo de produção.
+- [ ] Há referência correta para comparar a arte e seus fundos/cores aprovados.
+
+**Saída**
+- [ ] Transições de arte entre manga, corpo e recortes não apresentam emenda indevida no molde real.
+- [ ] Detalhes finos preservam legibilidade após escala e SISBolt.
+
+**Exportação**
+- [ ] O mapa preserva contornos, detalhes pequenos, escala, orientação e versão aprovados.
+- [ ] Alterações posteriores invalidaram mapas exportados antigos afetados.
+
+**Impressão**
+- [ ] Prova e inspeção, quando exigidas, verificaram legibilidade de patrocínio e contorno, continuidade e diferença importante de tom.
+- [ ] Falha visual encontrada foi registrada, bloqueada e encaminhada para investigação; a causa não foi atribuída sem evidência.
+- [ ] Reposição e nova revisão ficaram vinculadas ao pedido.
+
+Estes são **complementos** motivados por incidentes encontrados em [AUD-009](../governanca/AUDITORIA-FONTES-V0.9.md). Não alteram os **141 códigos de checklist transcritos**.
