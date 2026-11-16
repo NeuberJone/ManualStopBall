@@ -72,3 +72,10 @@ A numeração dos documentos não deve ser confundida com o número de versão: 
 - [Auditoria das reuniões e históricos de ocorrências](governanca/AUDITORIA-FONTES-V0.5.md)
 
 Esses capítulos preservam **evidências e exceções com sua origem**. Não equivalem à auditoria completa de todas as notas, mídias ou páginas manuscritas.
+
+### Revisão de manuscritos — v0.6-draft
+
+- [Controle de status, versões e liberação entre setores](docs/11-CONTROLE-STATUS-VERSOES-PEDIDOS.md)
+- [Auditoria complementar de reuniões e anotações manuscritas](governanca/AUDITORIA-MANUSCRITOS-V0.6.md)
+
+Esta rodada conferiu visualmente as **8 páginas** da reunião de arte-finalistas, as **5 páginas** da reunião de vendedores, as páginas **17–23 de Notes 2** e as **11 páginas** de anotações de maio de 2024. Os demais manuscritos continuam em revisão; não foram classificados como concluídos.
