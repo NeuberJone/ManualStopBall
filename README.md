@@ -97,3 +97,10 @@ Esses arquivos são transcrições de verificações, **não comprovam auditoria
 - [AUD-008 — Auditoria visual do Notes 2 (30 páginas)](governanca/AUDITORIA-NOTES2-V0.8.md)
 
 A inspeção de **Notes 2** cobre as 30 páginas em duas rodadas (0.6 e 0.8). Não significa que todas as anotações manuscritas de outros PDFs estejam integralmente transcritas, nem que códigos antigos estejam homologados.
+
+### Revisão 0.9 — notas curtas e qualidade pré-impressão
+
+- [Auditoria de cinco PDFs curtos e versões de conversas](governanca/AUDITORIA-FONTES-V0.9.md)
+- [POP 013 — Qualidade visual antes e após impressão](docs/13-QUALIDADE-VISUAL-PRE-IMPRESSAO.md)
+
+Foram revistas oito páginas de notas curtas e documentadas diferenças reais de cobertura entre os ZIPs compactos do GitHub e exportações maiores disponibilizadas anteriormente. O repositório ainda **não contém todas as versões grandes** das conversas.
