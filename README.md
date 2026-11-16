@@ -79,3 +79,14 @@ Esses capítulos preservam **evidências e exceções com sua origem**. Não equ
 - [Auditoria complementar de reuniões e anotações manuscritas](governanca/AUDITORIA-MANUSCRITOS-V0.6.md)
 
 Esta rodada conferiu visualmente as **8 páginas** da reunião de arte-finalistas, as **5 páginas** da reunião de vendedores, as páginas **17–23 de Notes 2** e as **11 páginas** de anotações de maio de 2024. Os demais manuscritos continuam em revisão; não foram classificados como concluídos.
+
+### Checklist integrado: 141 verificações — versão 0.7-draft
+
+A comparação direta dos DOCX confirmou que os **98 itens do checklist legado v1.4 foram preservados** no integrado v0.2, que possui **141 itens**, não 140.
+
+- [Parte 1 — Pedido, Layout e Grid (57)](checklists/INTEGRADO-141-PARTE-1.md)
+- [Parte 2 — Patrocinadores, Escudos, SISBolt e pós-processamento (48)](checklists/INTEGRADO-141-PARTE-2.md)
+- [Parte 3 — Liberação, Exportação e Impressão (36)](checklists/INTEGRADO-141-PARTE-3.md)
+- [Auditoria de preservação dos códigos e textos](governanca/AUDITORIA-CHECKLIST-141-V0.7.md)
+
+Esses arquivos são transcrições de verificações, **não comprovam auditoria integral dos históricos** nem homologação dos valores pendentes.
