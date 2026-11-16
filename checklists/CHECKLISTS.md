@@ -178,3 +178,18 @@ Este documento permanece como **resumo funcional por processo**. Para revisão i
 | **Total** | **141 verificações com IDs únicos** | **141** |
 
 A [Auditoria 0.7](../governanca/AUDITORIA-CHECKLIST-141-V0.7.md) confirmou a preservação de **98/98** itens do legado de Saída v1.4 no integrado v0.2. A referência anterior a cerca de 140 itens está corrigida.
+
+## L. Complemento setorial de camadas e objetos (edição 0.8)
+
+As anotações em `Notes 2.pdf`, páginas 7–13, registram confusões de camadas, modelos e objetos. Adicionar às inspeções aplicáveis na **Saída**:
+
+- [ ] Nome, tipo e **camada** da peça correspondem ao molde vigente.
+- [ ] Manga curta/longa e convencional/raglan estão diferenciadas conforme o pedido.
+- [ ] As peças de MA, FE, C e demais variantes não foram misturadas.
+- [ ] Componentes de gola V, redonda ou específica não estão duplicados.
+- [ ] Não há objeto oculto, peça em camada errada nem componentes faltantes.
+- [ ] Se houve renomeação de molde, a equivalência antigo → atual foi validada e testada.
+- [ ] Essas verificações foram repetidas após SISBolt e no arquivo real salvo.
+- [ ] Falha encontrada reabriu a conferência **integral do pedido e das sublistas**.
+
+**Escopo:** itens complementares ao checklist de 141 códigos, não reescrita retroativa dos códigos originais. A fonte é a [AUD-008](../governanca/AUDITORIA-NOTES2-V0.8.md).
