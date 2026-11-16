@@ -1,20 +1,27 @@
 # Changelog
 
-Todas as mudanças significativas na documentação serão registradas aqui.
+Todas as mudanças significativas na documentação do setor de arte são registradas aqui. Uma versão `draft` **não** constitui homologação.
+
+## [0.4.0-draft] — 2026-11-16
+
+### Added
+- `docs/05-MODELAGENS-MEDIDAS.md`: regras detalhadas para shorts, bermudas, capuzes, punhos, golas e referências de costura/bainha.
+- `docs/06-LINHAS-GABARITOS.md`: especificações textuais das linhas Diamante, Ouro, Prata e Bronze; tabela das dez pranchas de gabaritos com suas legendas.
+- `docs/07-ESCUDOS-SISBOLT.md`: escudos sublimado/DTF/3D/4D/bordado, propriedades Mão livre e Tamanho padrão, personalizações e conferência pós-SISBolt.
+- `governanca/RASTREABILIDADE.md`: índice inicial de 38 regras do chat/arquivos com caminhos para as seções do manual.
+
+### Changed
+- `docs/MANUAL-GERAL.md` estruturado como **documento-mestre**, conectando os POPs e os checklists.
+- `README.md` atualizado com navegação completa por etapa.
+
+### Known limitations
+- O checklist Markdown ainda não é equivalente item a item ao legado de cerca de 140 verificações.
+- Mapas e PDF de gabaritos estão catalogados, mas não publicados como binários no repositório público.
+- Arquivos de WhatsApp, notas, imagens e versões antigas **não foram auditados exaustivamente**.
+- Parâmetros controversos permanecem identificados como pendentes, sem transformá-los em regras universais.
 
 ## [0.3.0-draft] — 2026-11-16
 
-- Inicialização do repositório Markdown para o setor de arte StopBall.
-- Separação do manual em documentos de pedido/layout, saída, exportação/impressão e qualidade.
-- Consolidação das regras textuais fornecidas sobre modelagens, capuz, punho, bainha, viés, escudos, SISBolt, arquivos de Atalhos e revisão integral.
-- Criação de checklist-base por etapa.
-- Catálogo das imagens e dos mapas/gabaritos já existentes, ainda não adicionados como binários.
-- Inventário das pendências de validação e limites da auditoria.
-- Identificação explícita de **documentação não homologada**, sem garantia de cobertura exaustiva de todas as fontes.
-
-## Próximas versões
-
-- Importação autorizada de fluxogramas e gabaritos originais.
-- Auditoria completa de fontes e alinhamento item a item com os checklists legados.
-- Substituição dos placeholders por PNGs aprovados.
-- Homologação das regras e responsáveis por transferência entre etapas.
+- Inicialização do repositório Markdown.
+- Divisão por pedido/layout, saída, exportação/impressão e qualidade.
+- Checklist-base, fontes, catálogo de imagens e pendências de validação.

@@ -1,57 +1,64 @@
 # Manual StopBall
 
-Documentação versionada dos processos do setor de arte da **StopBall Uniformes**, do recebimento do pedido à impressão.
+**Manual integrado do setor de arte da StopBall Uniformes** — do pedido à impressão, com documentação versionada por processo.
 
-> **Status: versão de trabalho — não homologada.** Este repositório consolida orientações fornecidas, documentos anteriores e ocorrências operacionais. Em caso de dúvida ou divergência, interrompa a etapa afetada e obtenha confirmação no pedido vigente. Não use um exemplo histórico como substituto da aprovação atual.
+> **Situação atual:** `0.4.0-draft`, em revisão. O conteúdo reúne regras textuais recebidas e documentos anteriores, mas ainda não representa homologação formal nem auditoria exaustiva de todo o histórico. Não aplicar valores incertos sem confirmação.
 
-## Navegação
+## Comece aqui
 
-- [Manual geral](docs/MANUAL-GERAL.md): visão completa, responsabilidades e critérios de transferência.
-- [Recebimento e layout](docs/01-PEDIDO-LAYOUT.md): entrada, criação, aprovação e versionamento.
-- [Saída de artes](docs/02-SAIDA-DE-ARTES.md): moldes, montagem, escudos, SISBolt e Atalhos.
-- [Exportação e impressão](docs/03-EXPORTACAO-IMPRESSAO.md): materiais, gabaritos, mapas, impressão e rastreamento.
-- [Qualidade e erros](docs/04-QUALIDADE-ERROS.md): revisão integral após sinalização e prevenção de retrabalho.
-- [Checklists por etapa](checklists/CHECKLISTS.md): verificações obrigatórias e condicionais.
-- [Gabaritos e imagens pendentes](referencias/IMAGENS-E-GABARITOS.md): especificações para ilustrar sem inventar desenhos.
-- [Pendências de validação](governanca/PENDENCIAS.md): dúvidas e divergências a homologar.
-- [Fontes e rastreabilidade](governanca/FONTES.md): inventário e limites da consolidação.
-- [Histórico de alterações](CHANGELOG.md).
+**[Abrir Manual Geral](docs/MANUAL-GERAL.md)** — visão geral, fluxo, critérios de liberação e acesso a todos os procedimentos.
 
-## Fluxo de trabalho
+### Procedimentos
+
+| Etapa | Documento |
+|---|---|
+| Pedido, layout e aprovação | [01-PEDIDO-LAYOUT.md](docs/01-PEDIDO-LAYOUT.md) |
+| Saída de artes | [02-SAIDA-DE-ARTES.md](docs/02-SAIDA-DE-ARTES.md) |
+| Exportação e impressão | [03-EXPORTACAO-IMPRESSAO.md](docs/03-EXPORTACAO-IMPRESSAO.md) |
+| Qualidade e correção de erros | [04-QUALIDADE-ERROS.md](docs/04-QUALIDADE-ERROS.md) |
+| Modelagens e medidas | [05-MODELAGENS-MEDIDAS.md](docs/05-MODELAGENS-MEDIDAS.md) |
+| Linhas, tecidos e gabaritos | [06-LINHAS-GABARITOS.md](docs/06-LINHAS-GABARITOS.md) |
+| Escudos, personalizações e SISBolt | [07-ESCUDOS-SISBOLT.md](docs/07-ESCUDOS-SISBOLT.md) |
+
+### Controle, fontes e materiais visuais
+
+- [Checklists integrados](checklists/CHECKLISTS.md)
+- [Catálogo de gabaritos, mapas e imagens](referencias/IMAGENS-E-GABARITOS.md)
+- [Rastreabilidade das regras](governanca/RASTREABILIDADE.md)
+- [Pendências de homologação](governanca/PENDENCIAS.md)
+- [Fontes e limitações da consolidação](governanca/FONTES.md)
+- [Histórico de alterações](CHANGELOG.md)
+
+## Fluxo resumido
 
 ```mermaid
 flowchart LR
     A[Pedido] --> B[Layout]
-    B --> C{Aprovado?}
-    C -- Não --> B
-    C -- Sim --> D[Saída de artes]
+    B --> C{Aprovação}
+    C -- Corrigir --> B
+    C -- Liberado --> D[Saída]
     D --> E[Exportação e mapas]
     E --> F[Impressão]
-    F --> G[Próxima operação]
-    A & B & D & E & F --> H{Erro ou divergência?}
-    H -- Sim --> I[Bloquear etapa e corrigir a origem]
-    I --> J[Revisar pedido inteiro e sublistas]
-    J --> K[Revalidar e liberar nova versão]
 ```
 
-O fluxo é conceitual. Os responsáveis e aprovadores formais ainda precisam ser homologados.
+**Regra principal:** qualquer pedido sinalizado com erro deve ser bloqueado na etapa afetada, corrigido na origem e **revisado integralmente** antes de nova liberação. Os checklists por etapa são aplicáveis conforme produto/serviço.
 
-## Classificação de informações
+## Como revisar e manter
 
-- **REGRA CONFIRMADA:** instrução fornecida expressamente para aplicação operacional.
-- **EXCEÇÃO:** condição de modelagem ou pedido que altera o padrão.
-- **REFERÊNCIA HISTÓRICA:** anotação, exemplo ou ocorrência, sem alcance universal confirmado.
-- **PENDENTE:** aspecto que precisa de definição antes de se tornar regra obrigatória.
-- **PROPOSTA:** sugestão de controle, organização ou automação, ainda não homologada.
+1. Selecionar o capítulo correspondente ao assunto.
+2. Conferir o texto com pedido, fonte original e regra fornecida.
+3. Identificar **regra confirmada, exceção, informação histórica ou pendência**.
+4. Alterar procedimento, checklist, rastreabilidade e `CHANGELOG.md` quando necessário.
+5. Preparar **PNG real** a partir de contorno aprovado, quando houver ilustração específica; não substituir por desenho genérico.
+6. Revisar alterações em pull request antes de considerar a próxima versão consolidada.
 
-## Como manter atualizado
+Os PDFs de gabaritos e fluxos gerados anteriormente estão catalogados. A publicação dos binários no GitHub público depende de checagem de uso e privacidade. Conversas de WhatsApp, dados pessoais e arquivos de clientes **não devem ser publicados em bruto**.
 
-1. Criar uma branch `docs/<assunto>`.
-2. Atualizar o documento específico, mantendo termos técnicos utilizados pela StopBall.
-3. Anotar a origem e os impactos nos checklists.
-4. Registrar mudanças no `CHANGELOG.md`.
-5. Revisar em pull request antes de consolidar na branch principal.
+### Identificadores documentais
 
-**Privacidade:** não publicar conversas brutas de WhatsApp, nomes de clientes, telefones ou dados pessoais no repositório público. Use ocorrências anonimizadas e arquivos autorizados para compartilhamento.
+- `MAN-DES-001`: Manual Geral
+- `POP-DES-*`: procedimentos operacionais
+- `CHK-DES-GERAL-001`: checklists integrados
+- `REQ-*`: itens de rastreabilidade
 
-**Importante:** a versão em Markdown não substitui automaticamente os PDFs originais; arquivos binários técnicos e imagens devem ser incorporados separadamente, após verificação de direitos de acesso e autorização.
+A numeração dos documentos não deve ser confundida com o número de versão: o procedimento 001 pode evoluir de versão sem trocar seu código.

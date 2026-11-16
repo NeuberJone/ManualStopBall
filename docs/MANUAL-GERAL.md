@@ -1,80 +1,131 @@
 # MAN-DES-001 — Manual Geral do Setor de Arte
 
-**Versão documental:** 0.3 (Markdown inicial)  
-**Situação:** em revisão, não homologado  
-**Abrangência:** pedido, layout, aprovação, saída, exportação e impressão. A interface com calandra, laser, bordado, separação, costura e expedição é tratada apenas como transferência.
+**Versão:** 0.4.0-draft (2026-11-16)  
+**Situação:** em elaboração; ainda não homologado.  
+**Abrangência:** do pedido à impressão. Integra todos os procedimentos do setor de arte sem confundir a responsabilidade técnica de cada etapa.
 
-## 1. Objetivo
+## 1. Como usar
 
-Garantir que cada etapa receba um pedido correto, produza arquivos rastreáveis, entregue resultados conferidos e identifique como seu trabalho afeta a produção subsequente. Conhecer o processo inteiro **não** significa executar funções de outro setor.
+Este documento é a **porta de entrada** da documentação. As regras detalhadas ficam nos procedimentos específicos e os controles por etapa nos checklists. A versão principal é composta por todos esses arquivos; **não se deve interpretar somente esta página como o manual completo**.
 
-## 2. Sequência operacional
-
-1. **Recebimento/interpretação:** conferência do pedido, sublistas, quantidades, modelagens, alterações e dúvidas.
-2. **Layout:** criação com fontes, marcas e aplicações corretas; legibilidade e versionamento.
-3. **Aprovação/revisão:** identificação inequívoca da versão aprovada.
-4. **Saída:** molde, grid, montagem, SISBolt, componentes e inspeção do arquivo final.
-5. **Exportação:** separação por tecido, viés, mapas, arquivos de impressão, peças especiais e versões.
-6. **Impressão:** validação do arquivo/tecido/rolo/equipamento, execução, registro e encaminhamento.
-
-### Portões de qualidade
-
-Antes de cada passagem, quem entrega informa pedido, sublista, versão e arquivos efetivos. Quem recebe confere o mínimo indispensável antes de executar.
-
-**Erro ou divergência em qualquer momento:** suspender a liberação da etapa afetada, registrar o problema, corrigir na origem e **revisar integralmente o pedido** (todas as sublistas, tamanhos, variantes e arquivos derivados aplicáveis). Após corrigir, revalidar e liberar a nova versão. Não basta corrigir o item apontado.
-
-## 3. Responsabilidades por etapa
-
-| Etapa | Executa | Verifica principalmente | Transferência |
-|---|---|---|---|
-| Recebimento | Interface com vendas | Pedido, alterações, instruções, listas | Informação sem ambiguidade |
-| Layout | Arte-finalista de criação | Composição, marcas, qualidade, versões | Layout identificável |
-| Revisão | Responsável **a confirmar** | Pedido × layout × sublista | Aprovação da versão |
-| Saída | Arte-finalista da saída | Moldes, recortes, personalização, SISBolt | Peças efetivas conferidas |
-| Exportação | Preparação de mapas | Tecidos, consumo/medidas de viés, mapas, arquivos | Arquivos prontos para máquina |
-| Impressão | Operador de impressão | Arquivo, tecido, rolo, impressora e qualidade | Execução rastreada |
-
-A autoridade formal para aprovar cada transição está **pendente**; a tabela não cria cargos nem delegações.
-
-## 4. Regras transversais
-
-- A última saída, um exemplo de Atalhos e um layout antigo **não substituem** o pedido atual ou a revisão aprovada.
-- Quando pedido, lista, layout ou sublista divergir, não decidir por suposição; consultar o vendedor e documentar a resposta.
-- Dados de lista podem ser informativos. A presença de um nome não prova que ele deve ser impresso; confirmar quando não corresponder ao layout.
-- Conferir cada patrocinador e escudo, inclusive versões por cor, frente/costas, mangas, jogador de linha e goleiro.
-- A revisão deve ser feita **nos arquivos efetivos de produção**, não somente em prints ou prévias.
-- Em solicitações especiais, confirmar a modelagem e não generalizar autorização de um pedido para todos os outros.
-- A impressão não recebe arquivo com pendência técnica que afete o produto.
-
-## 5. Procedimentos detalhados
-
-- [Pedido e layout](01-PEDIDO-LAYOUT.md)
+- [Pedido, layout e aprovação](01-PEDIDO-LAYOUT.md)
 - [Saída de artes](02-SAIDA-DE-ARTES.md)
+- [Modelagens e medidas](05-MODELAGENS-MEDIDAS.md)
+- [Escudos, personalizações e SISBolt](07-ESCUDOS-SISBOLT.md)
+- [Linhas, tecidos e gabaritos](06-LINHAS-GABARITOS.md)
 - [Exportação e impressão](03-EXPORTACAO-IMPRESSAO.md)
-- [Qualidade e devoluções](04-QUALIDADE-ERROS.md)
-- [Checklists](../checklists/CHECKLISTS.md)
+- [Qualidade, erros e devoluções](04-QUALIDADE-ERROS.md)
+- [Checklists integrados](../checklists/CHECKLISTS.md)
+- [Gabaritos, fluxos e imagens pendentes](../referencias/IMAGENS-E-GABARITOS.md)
+- [Pendências de validação](../governanca/PENDENCIAS.md)
+- [Rastreabilidade dos requisitos](../governanca/RASTREABILIDADE.md)
 
-## 6. Regras de costura e posicionamento que afetam a arte
+## 2. Objetivo
 
-Referências comunicadas pela liderança:
+Documentar como pedido, layout, aprovação, saída, exportação e impressão se relacionam, quais entregas são exigidas e quais verificações impedem retrabalho, material errado e uso de versões antigas.
 
-- Perda média de tecido em costura: **1,5 cm**. A incidência por borda/operação ainda requer confirmação.
-- Bainha da manga e da barra da blusa: referência informada de **4 cm** (2 cm de dobra para dentro e 2 cm associados à região externa onde passa a costura). A representação geométrica exata depende de imagem técnica aprovada.
-- Elemento próximo à barra da blusa: **distância mínima de 8 cm da base**. Critério de medição: da borda inferior do elemento à base do molde **proposto anteriormente, ainda a confirmar**.
-- Gola comum: **6 cm de altura**; gola centenário: **7 cm de altura** — conferir a convenção de medição antes de reproduzir num desenho técnico.
+**O conhecimento do processo inteiro não significa que o funcionário seja responsável por todos os controles.** Quem faz saída conhece que há tecidos distintos; quem exporta é responsável por conferir o tecido e o consumo de viés.
 
-Essas referências não devem ser somadas automaticamente nem usadas para redefinir o molde sem validação.
+## 3. Fluxo geral
 
-## 7. Tipos de marca e identificação
+```mermaid
+flowchart LR
+    A[Pedido e sublistas] --> B[Criação do layout]
+    B --> C{Aprovação da versão}
+    C -- Correção --> B
+    C -- Aprovado --> D[Saída de artes]
+    D --> E[Exportação e mapas]
+    E --> F[Impressão]
+    F --> G[Próxima operação]
+```
 
-Escudo, marca StopBall, patrocinadores e etiqueta são elementos distintos. **Linha Especial não recebe etiqueta sublimada**; isso não significa ausência de todas as formas de identificação.
+### Regra transversal de devolução
 
-Em algumas linhas a marca StopBall é aplicada em DTF e na Bronze foi informado StopBall sublimado + escudo padrão DTF. Confirmar o pedido/variante antes de produzir.
+```mermaid
+flowchart TD
+    X[Erro sinalizado em qualquer etapa] --> Y[Bloquear liberação]
+    Y --> Z[Corrigir no documento/arquivo de origem]
+    Z --> R[Revisar o pedido inteiro e todas as sublistas]
+    R --> V{Conferência integral aprovada?}
+    V -- Não --> Z
+    V -- Sim --> N[Publicar nova revisão e liberar]
+```
 
-## 8. Evidências e bloqueios
+Os fluxogramas PDF já produzidos para os seis setores estão catalogados, mas ainda não foram enviados como anexos binários ao repositório público.
 
-O checklist deve conter apenas verificações aplicáveis, com estado **conferido / pendente / não se aplica** e justificativa quando necessário. Uma captura legível pode comprovar mais de um item, desde que seja do **arquivo atual**. Uma devolução reabre a revisão integral. Registrar pedido, sublista, etapa, responsável, revisão, arquivo e data/hora.
+## 4. Matriz de papéis e entregas
 
-## 9. Situação documental
+| Etapa | Conferência principal | O que deve entregar |
+|---|---|---|
+| Entrada | Pedido, lista, sublistas, alterações e dúvidas | Pedido interpretado, sem ambiguidade crítica |
+| Layout | Arte, patrocinadores, escudos, cores, variantes e legibilidade | Arquivo editável, completo, versionado |
+| Revisão/aprovação | Pedido × layout × sublistas × versão | Aprovação rastreável |
+| Saída | Modelo, recortes, grid, personalizações, escudos, SISBolt | Peças efetivas conferidas |
+| Exportação | Gabaritos, tecidos, viés, componentes, mapas e arquivos | Mapa correto por material/rolo |
+| Impressão | Pedido, mapa, versão, tecido, máquina e execução | Impressão identificada e rastreada |
 
-Esta é uma **base operacional em desenvolvimento**, consolidada de conversas, documentos e ocorrências. Regras fornecidas estão documentadas, mas a auditoria anterior **não certificou leitura exaustiva de todas as páginas/imagens e arquivos de WhatsApp**. Ver [Fontes](../governanca/FONTES.md) e [Pendências](../governanca/PENDENCIAS.md).
+**Autoridade formal dos aprovadores:** pendente de homologação; não presumir que a pessoa que prepara também pode aprovar.
+
+## 5. Hierarquia da informação
+
+1. Decisão específica e atual registrada no **pedido aprovado**.
+2. Regra operacional homologada para a linha/peça.
+3. Procedimento e checklist atualizados.
+4. Gabarito vigente e arquivos de referência autorizados.
+5. Arquivo de Atalhos ou exemplo histórico **somente como referência**.
+
+Quando fontes divergirem, **não escolher livremente uma delas**. Interromper a etapa afetada e consultar vendedor/líder conforme a natureza da dúvida.
+
+## 6. Regras críticas de qualidade
+
+- Toda ocorrência sinalizada exige **correção e revisão do pedido inteiro**.
+- É obrigatório confrontar o arquivo final **real**, não somente a prévia.
+- Confirmar todos os patrocinadores/escudos individualmente, inclusive versões por cor e peças diferentes.
+- Um dado na lista não impõe uma aplicação se o layout não apresentar a informação; esclarecer.
+- O arquivo de Atalhos **não** substitui o pedido nem autoriza copiar marcas, números ou objetos ocultos.
+- Na Saída: selecionar modelagem correta, aplicar exceções e revisar as peças pós-SISBolt.
+- Na Exportação: conferir tecidos, rendimento/medidas de viés, gabaritos e mapa.
+- Na Impressão: garantir arquivo, tecido, rolo e máquina correspondentes à ordem.
+
+## 7. Regras de modelagem e aplicação — resumo
+
+| Situação | Orientação |
+|---|---|
+| Short comum | Molde partido |
+| Short com arte central | Molde inteiro |
+| Short feminino de viés | Exceção; caso com arte central pendente |
+| Bermuda comum | Molde partido e bolsos laterais |
+| Bermuda com arte central | Consultar líder |
+| Bermuda de juiz | Três bolsos; posição do terceiro a validar |
+| Capuz de pesca | Sem forro, salvo pedido contrário |
+| Outros capuzes | Com forro, salvo pedido contrário |
+| Punho com escrita | Punho maior |
+| Linha Especial | Sem etiqueta sublimada |
+| Elementos na barra da blusa | Mínimo 8 cm da base, com marco de medição a confirmar |
+
+Outras medidas, configurações de escudo e procedimentos completos estão nos capítulos específicos.
+
+## 8. Identificação de imagens e gabaritos
+
+O manual **não usará** como ilustrações finais os desenhos manuscritos ou os esquemas genéricos já rejeitados. Para exemplos que ainda não existem em versão aprovada, consultar o [catálogo com códigos e conteúdo esperado](../referencias/IMAGENS-E-GABARITOS.md). O PDF de gabaritos tem **dez páginas**; suas legendas foram catalogadas.
+
+## 9. Evidências e checklists
+
+Aplicar somente verificações pertinentes à peça/linha/etapa. O checklist digital planejado pode usar estados **Conferido / Pendente / Não se aplica**. A evidência deve representar o arquivo correto, com pedido, sublista e revisão identificáveis. Quando um arquivo muda após erro, revalidar as evidências afetadas e reconferir o pedido integralmente.
+
+## 10. Critérios de homologação
+
+Este material está em versão de trabalho. Só poderá ser tratado como procedimento oficial após:
+
+- confirmação dos pontos técnicos listados em [Pendências](../governanca/PENDENCIAS.md);
+- auditoria integral dos arquivos de origem e históricos relevantes, respeitando privacidade;
+- revisão dos checklists detalhados e verificação de que nenhuma exigência foi descartada;
+- conferência e aprovação das imagens/gabaritos;
+- validação formal por quem responde pelo setor.
+
+## 11. Controle de revisões
+
+| Versão | Data | Situação |
+|---|---|---|
+| 0.3.0-draft | 2026-11-16 | Estrutura inicial em Markdown |
+| **0.4.0-draft** | **2026-11-16** | Capítulos técnicos ampliados, documentação integrada e rastreabilidade inicial |

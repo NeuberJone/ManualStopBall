@@ -91,3 +91,30 @@
 - [ ] Nova versão liberada; evidências anteriores invalidadas quando pertinentes.
 
 Este checklist é um **resumo navegável**, não uma transcrição fiel dos 140 itens dos checklists integrados PDF v0.2. A equivalência item a item ainda será auditada; veja [Pendências](../governanca/PENDENCIAS.md).
+
+
+## H. Conferência de modelagem e linha — complementação 0.4
+
+**Aplicação em SAÍDA:**
+- [ ] O pedido identifica a linha e a modelagem atualizada.
+- [ ] Para short comum, foi utilizado o molde partido; para short com arte central, molde inteiro.
+- [ ] Para bermuda com arte central, a decisão do líder está registrada.
+- [ ] Para bermuda de juiz, estão previstos os três bolsos, sem presumir a posição do terceiro.
+- [ ] Capuz de pesca sem forro e demais capuzes com forro, respeitando exceção expressa.
+- [ ] Punho com escrita utiliza o molde de punho maior.
+- [ ] Distância mínima de 8 cm da barra da blusa conferida; marco de medida ainda deve ser aprovado.
+- [ ] O tratamento de escudos DTF, 3D, 4D ou bordado corresponde à aplicação aprovada.
+- [ ] O SISBolt gerou todas as peças de cada sublista com dados e propriedades corretos.
+
+**Aplicação em EXPORTAÇÃO (não transferir para a SAÍDA):**
+- [ ] A configuração da linha e a variante do gabarito foram confirmadas.
+- [ ] A separação dos tecidos corresponde aos componentes do gabarito.
+- [ ] O rendimento dos chapados, consumo e dimensões de viés foram conferidos quando aplicáveis.
+- [ ] Ribana, recortes e outros componentes foram encaminhados para o processo certo.
+- [ ] O arquivo de cada mapa contém as peças/quantidades correspondentes ao tecido selecionado.
+
+**Controle de qualidade transversal:**
+- [ ] Havendo erro, toda a ordem e suas sublistas foram reabertas para revisão integral.
+- [ ] A nova versão está identificada, e nenhuma evidência antiga foi apresentada como prova da correção.
+
+> **Limite desta edição:** o checklist em Markdown é um checklist operacional organizado, mas ainda **não** é transcrição integral das aproximadamente 140 verificações contidas no checklist integrado anterior. A equivalência e códigos devem ser auditados antes da homologação. Detalhes em [Pendências](../governanca/PENDENCIAS.md).
