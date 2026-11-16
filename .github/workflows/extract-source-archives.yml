@@ -1,0 +1,77 @@
+name: Extract source archives
+
+on:
+  push:
+    branches:
+      - docs/organize-source-archives
+    paths:
+      - .github/workflows/extract-source-archives.yml
+      - fontes/originais/**
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Extract and inventory original archives
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import csv
+          import hashlib
+          from pathlib import Path
+          import zipfile
+
+          root = Path("fontes")
+          output = root / "extraidos"
+          pairs = [
+              (root / "originais/conversas/Layautistas.zip", output / "conversas/Layautistas"),
+              (root / "originais/conversas/Ajustar pedidos.zip", output / "conversas/Ajustar_pedidos"),
+              (root / "originais/conversas/Saídas de Emergência.zip", output / "conversas/Saidas_de_Emergencia"),
+              (root / "originais/anotacoes/Notes-20261106T165947Z-1-001.zip", output / "anotacoes"),
+          ]
+          inventory = []
+          for archive, destination in pairs:
+              with zipfile.ZipFile(archive) as zf:
+                  for member in zf.infolist():
+                      path = Path(member.filename)
+                      if member.is_dir() or path.is_absolute() or ".." in path.parts:
+                          continue
+                      content = zf.read(member)
+                      target = destination / path
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      target.write_bytes(content)
+                      inventory.append([
+                          archive.name, str(target), len(content),
+                          hashlib.sha256(content).hexdigest()
+                      ])
+
+          (root / "INVENTARIO-EXTRAIDOS.csv").parent.mkdir(parents=True, exist_ok=True)
+          with (root / "INVENTARIO-EXTRAIDOS.csv").open("w", encoding="utf-8-sig", newline="") as out:
+              writer = csv.writer(out)
+              writer.writerow(["Origem", "Caminho extraído", "Bytes", "SHA256"])
+              writer.writerows(inventory)
+          print(f"Extracted {len(inventory)} files")
+          PY
+
+      - name: Commit extracted files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fontes/extraidos fontes/INVENTARIO-EXTRAIDOS.csv
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: extract source archives and record checksums"
+            git push origin HEAD:docs/organize-source-archives
+          fi
