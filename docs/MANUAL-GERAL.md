@@ -141,3 +141,11 @@ As seguintes áreas passaram a ter procedimentos com referência explícita à r
 - [Auditoria das fontes](../governanca/AUDITORIA-FONTES-V0.5.md): origens, exceções e lacunas.
 
 **Atenção:** fontes históricas não conferem autoridade universal a uma exceção. A especificação da linha e a decisão registrada para o pedido vigente continuam sendo indispensáveis.
+
+## 13. Conferência de estado do pedido — edição 0.6
+
+As fontes históricas apontam pedidos cancelados ainda visíveis, pedidos direcionados a setores incorretos e divergência entre previsão impressa e a registrada no sistema. Por isso, a checagem de **status ativo, versão liberada e setor** precisa ocorrer em todas as transferências de trabalho.
+
+Consulte [POP-DES-011 — Estado do pedido e revisões](11-CONTROLE-STATUS-VERSOES-PEDIDOS.md) e [AUD-006 — Revisão complementar de manuscritos](../governanca/AUDITORIA-MANUSCRITOS-V0.6.md).
+
+O procedimento é uma **barreira preventiva proposta**, não prova que o software existente já forneça controle automático de status ou de revisão.
