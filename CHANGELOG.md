@@ -60,3 +60,11 @@ Todas as mudanças significativas na documentação do setor de arte são regist
 - Adicionado [POP-DES-012](docs/12-CAMADAS-GRIDS-MOLDES.md) para controle de nome, camada, variante e integridade de objetos antes/depois do SISBolt.
 - Atualizados Manual Geral, checklist-base, índice e pendências.
 - Preservadas como históricas, não universais, referências de dimensões, nomenclaturas de moldes e tamanhos disponíveis.
+
+## [0.9.0-draft] — 2026-11-16
+
+- Inspecionados visualmente cinco PDFs curtos de anotações, totalizando **oito páginas**, com separação entre esboços de pedido e procedimento reutilizável.
+- Registrada em `AUDITORIA-FONTES-V0.9.md` a diferença de cobertura entre ZIPs compactos publicados e versões maiores das conversas originais, com contagem de linhas de `chat.txt`.
+- Documentadas ocorrências textuais de emenda de manga aparente, contorno fino desaparecido, texto pequeno ausente e fundo impresso escuro.
+- Criado `POP-DES-013` com controles de qualidade visual para Layout, Saída, Exportação e Impressão, sem inferir causa raiz nem parâmetros ICC/temperatura.
+- Atualizados manual principal, checklists complementares, índice e pendências.

@@ -75,3 +75,11 @@ A auditoria anterior citou 114 requisitos, dos quais 85 presentes, 18 parciais, 
 - **P-043:** confirmar interpretação e alcance da anotação de 8 cm em uma referência de telinha (Notes 2, p.27); não usar como medida atual.
 - **P-044:** continuar auditoria dos outros PDFs manuscritos e das versões de históricos que não constam integralmente dos arquivos compactos publicados.
 - **P-037 (atualização):** inspeção visual de Notes 2 **concluída para as 30 páginas** em AUD-006 e AUD-008; permanecem pontos de escrita ilegível e validação de contexto de pedidos, além de outras fontes.
+
+## Pendências de cobertura das fontes e impressão — edição 0.9
+
+- **P-045:** reconciliar as versões mais extensas de `Ajustar pedidos` (865 e 939 linhas de chat.txt) com a exportação compacta publicada no repositório, preservando origem e evitando duplicatas.
+- **P-046:** reconciliar as três versões extensas de `Saídas de Emergência` (654, 695 e 781 linhas) com a exportação de 26 linhas publicada; não confundir nome igual com mesma cobertura.
+- **P-047:** identificar fotos/arquivos originais de ocorrências de impressão (emenda, perda de contorno, texto não impresso e tom divergente) antes de atribuir causa raiz.
+- **P-048:** formalizar prova de cor e critérios de aceitação por tecido; velocidades, perfis e parâmetros de máquina continuam sem base suficiente nos históricos.
+- **P-049:** revisar a autorização para qualquer publicação futura de conversas completas no repositório público e separar exemplos anonimizados dos brutos.
