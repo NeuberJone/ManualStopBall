@@ -39,3 +39,14 @@ Este arquivo reúne dúvidas que **não devem virar regras automáticas sem conf
 ## Observação de abrangência
 
 A auditoria anterior citou 114 requisitos, dos quais 85 presentes, 18 parciais, 6 ausentes e 5 pendentes. Esses números são **resultado de uma auditoria preliminar**; não comprovam 100% de cobertura do material recebido.
+
+
+## Complemento de pendências — auditoria 0.5
+
+- **P-024:** confirmar convenção de variantes de escudo quando houver múltiplos escudos no layout (cor, contorno, aplicação e peça).
+- **P-025:** definir formalmente os detalhes de gola, incluindo componente físico versus detalhe sublimado, por linha/modelo.
+- **P-026:** confirmar abrangência do termo TRV e da regra contextual de nome igual em todas as camisas.
+- **P-027:** padronizar identificação das listas quando um pedido contém vários layouts.
+- **P-028:** transcrever as páginas restantes da reunião de arte-finalistas e os demais PDFs manuscritos, confrontando o contexto com o pedido original.
+- **P-029:** identificar diferenças entre os históricos completos de WhatsApp e as exportações compactas atualmente publicadas.
+- **P-030:** homologar parâmetros de execução da impressão/calandra; as evidências atuais não os especificam suficientemente.

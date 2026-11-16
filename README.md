@@ -62,3 +62,13 @@ Os PDFs de gabaritos e fluxos gerados anteriormente estão catalogados. A public
 - `REQ-*`: itens de rastreabilidade
 
 A numeração dos documentos não deve ser confundida com o número de versão: o procedimento 001 pode evoluir de versão sem trocar seu código.
+
+
+## Complementação baseada nas fontes — edição 0.5
+
+- [Controle entre Vendas, Layout e Saída](docs/08-INTERFACE-VENDAS-LAYOUT.md)
+- [Qualidade do Layout antes da Saída](docs/09-CONTROLE-QUALIDADE-LAYOUT.md)
+- [Devoluções entre Exportação e Impressão](docs/10-DEVOLUCOES-EXPORTACAO-IMPRESSAO.md)
+- [Auditoria das reuniões e históricos de ocorrências](governanca/AUDITORIA-FONTES-V0.5.md)
+
+Esses capítulos preservam **evidências e exceções com sua origem**. Não equivalem à auditoria completa de todas as notas, mídias ou páginas manuscritas.

@@ -129,3 +129,15 @@ Este material está em versão de trabalho. Só poderá ser tratado como procedi
 |---|---|---|
 | 0.3.0-draft | 2026-11-16 | Estrutura inicial em Markdown |
 | **0.4.0-draft** | **2026-11-16** | Capítulos técnicos ampliados, documentação integrada e rastreabilidade inicial |
+
+
+## 12. Complementação por fontes (edição 0.5)
+
+As seguintes áreas passaram a ter procedimentos com referência explícita à reunião ou ocorrência que motivou o controle:
+
+- [Interface entre Vendas, Layout e Saída](08-INTERFACE-VENDAS-LAYOUT.md): várias listas/layouts, múltiplos escudos, detalhes de gola, aplicações por categoria e teste de cor.
+- [Qualidade de Layout para Saída](09-CONTROLE-QUALIDADE-LAYOUT.md): originais, vetor/bitmap, excedente, fontes e elementos próximos aos recortes.
+- [Devoluções de Exportação e Impressão](10-DEVOLUCOES-EXPORTACAO-IMPRESSAO.md): conferência de mapa/tecido/arquivo, registro da falha e revisão integral.
+- [Auditoria das fontes](../governanca/AUDITORIA-FONTES-V0.5.md): origens, exceções e lacunas.
+
+**Atenção:** fontes históricas não conferem autoridade universal a uma exceção. A especificação da linha e a decisão registrada para o pedido vigente continuam sendo indispensáveis.

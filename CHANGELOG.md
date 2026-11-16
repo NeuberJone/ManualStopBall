@@ -25,3 +25,12 @@ Todas as mudanças significativas na documentação do setor de arte são regist
 - Inicialização do repositório Markdown.
 - Divisão por pedido/layout, saída, exportação/impressão e qualidade.
 - Checklist-base, fontes, catálogo de imagens e pendências de validação.
+
+
+## [0.5.0-draft] — 2026-11-16
+
+- Revisão visual inicial das reuniões de vendedores (páginas 1–4) e arte-finalistas (páginas 1–4), além da leitura de históricos textuais de ocorrências.
+- Adicionados procedimentos de interface Vendas–Layout–Saída, pré-conferência de Layout e devoluções entre Exportação/Impressão.
+- Criada a auditoria de evidências `governanca/AUDITORIA-FONTES-V0.5.md`, com referências para fontes primárias, exceções e limites.
+- Checklist complementado com controles extraídos dos encontros e históricos.
+- Mantidas como pendência a transcrição exaustiva dos demais manuscritos e a recuperação das imagens mencionadas nos chats.
