@@ -118,3 +118,34 @@ Este checklist é um **resumo navegável**, não uma transcrição fiel dos 140 
 - [ ] A nova versão está identificada, e nenhuma evidência antiga foi apresentada como prova da correção.
 
 > **Limite desta edição:** o checklist em Markdown é um checklist operacional organizado, mas ainda **não** é transcrição integral das aproximadamente 140 verificações contidas no checklist integrado anterior. A equivalência e códigos devem ser auditados antes da homologação. Detalhes em [Pendências](../governanca/PENDENCIAS.md).
+
+
+## I. Complementos da leitura das reuniões e dos históricos (edição 0.5)
+
+**Pedido e Layout**
+- [ ] Cada lista e sublista está associada ao layout e variante corretos, principalmente quando há vários layouts.
+- [ ] Em layouts com múltiplos escudos, cada aplicação e tipo de processo foi especificado.
+- [ ] Gola com detalhe foi confirmada quanto a componente físico/sublimado quando houver ambiguidade.
+- [ ] Nomes de equipe no punho/barra e aplicações específicas de categoria foram identificados no arquivo aprovado.
+- [ ] Versões de fontes distintas em frente, costas e short foram verificadas quando aplicáveis.
+- [ ] Cor de teste está indicada no layout se o pedido a exige.
+- [ ] Escudos da Linha Especial que exigem vetor estão representados em arquivo vetorial efetivo.
+- [ ] Arte rasterizada/bitmap foi conferida no tamanho de produção e possui excedente suficiente.
+- [ ] Artes próximas de recortes, emendas e margens foram verificadas no molde real.
+- [ ] QR Code e pequenos detalhes permanecem legíveis em seu tamanho efetivo quando aplicáveis.
+- [ ] A correção está identificada no arquivo, não apenas em mensagem ou imagem de prévia.
+
+**Saída**
+- [ ] A aplicação individual de cada escudo foi mantida na variante correta.
+- [ ] Exceção de costa inteira em produto com recorte foi aprovada para o pedido específico, se aplicável.
+- [ ] Se nome consta da lista mas não do layout, existe instrução registrada antes de inseri-lo.
+- [ ] Nenhum contorno, patrocínio ou objeto de layout antigo foi reaproveitado sem confirmação.
+
+**Exportação e Impressão**
+- [ ] Mapa e arquivo exportado correspondem à revisão final da saída.
+- [ ] Todas as peças e componentes foram separados por material e rolo.
+- [ ] A identificação de tecido, mapa, rolo, impressora, arquivo e pedido está preservada.
+- [ ] Em caso de falha, a origem foi investigada e a reposição foi vinculada à ordem.
+- [ ] A revisão integral do pedido foi refeita após correção, antes de nova execução.
+
+Fonte e ressalvas: [Auditoria 0.5](../governanca/AUDITORIA-FONTES-V0.5.md).
