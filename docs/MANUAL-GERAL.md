@@ -158,3 +158,9 @@ O checklist integrado `CHK-DES-GERAL-001 v0.2` contém **141 verificações**. A
 - [Auditoria detalhada 0.7](../governanca/AUDITORIA-CHECKLIST-141-V0.7.md)
 
 **Limite da conclusão:** preservação entre os dois DOCX citados não significa cobertura integral de todos os históricos, fotos e procedimentos ainda em auditoria. As verificações marcadas `V` exigem validação técnica.
+
+## 15. Integridade dos grids e camadas (edição 0.8)
+
+A auditoria do `Notes 2.pdf` encontrou ocorrências de **componentes em camadas erradas**, **mangas raglan curtas/longas confundidas** e **dianteiro de gola duplicado**. Antes e depois do SISBolt, a Saída deve conferir tipo, nome e camada de todas as peças e suas variantes.
+
+Consulte [POP-DES-012 — Camadas, grids e moldes](12-CAMADAS-GRIDS-MOLDES.md) e [AUD-008 — Notes 2](../governanca/AUDITORIA-NOTES2-V0.8.md). Referências históricas de dimensões, nomes de objetos e disponibilidade de tamanhos não devem ser promovidas a padrões atuais sem validação.
