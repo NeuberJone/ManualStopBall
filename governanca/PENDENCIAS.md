@@ -50,3 +50,13 @@ A auditoria anterior citou 114 requisitos, dos quais 85 presentes, 18 parciais, 
 - **P-028:** transcrever as páginas restantes da reunião de arte-finalistas e os demais PDFs manuscritos, confrontando o contexto com o pedido original.
 - **P-029:** identificar diferenças entre os históricos completos de WhatsApp e as exportações compactas atualmente publicadas.
 - **P-030:** homologar parâmetros de execução da impressão/calandra; as evidências atuais não os especificam suficientemente.
+
+## Complementos — revisão manuscrita 0.6
+
+- **P-031:** confirmar se a orientação histórica de não aplicar logo StopBall em peças para igreja/evento continua vigente, em que linhas e com quais exceções.
+- **P-032:** conferir se a faixa de capitão anotada em reunião como 8 cm é uma medida atual, para qual modelo, e quem aprovou.
+- **P-033:** confirmar se a lona sublimada é padrão para patch 3D ou se a decisão é sempre explícita no pedido.
+- **P-034:** verificar mudança histórica de 0,5 cm em parte interna da gola Seleção antes de alterar qualquer molde.
+- **P-035:** formalizar status de pedido (ativo, cancelado, revisado, em aprovação) e autoridade para reabertura/liberação.
+- **P-036:** confrontar divergências entre previsão impressa, campo do sistema e ordem do setor sem presumir qual está atualizado.
+- **P-037:** conferir páginas 1–16 e 24–30 de Notes 2 e os outros documentos manuscritos ainda não transcritos.

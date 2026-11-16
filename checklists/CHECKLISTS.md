@@ -149,3 +149,19 @@ Este checklist é um **resumo navegável**, não uma transcrição fiel dos 140 
 - [ ] A revisão integral do pedido foi refeita após correção, antes de nova execução.
 
 Fonte e ressalvas: [Auditoria 0.5](../governanca/AUDITORIA-FONTES-V0.5.md).
+
+## J. Identificação do pedido ativo e controle de revisão — edição 0.6
+
+Aplicar na passagem **entre todas as etapas**, além das verificações técnicas pertinentes:
+
+- [ ] Pedido e sublista corretos; setor designado conferido.
+- [ ] Confirmado que não está cancelado nem com mudança pendente.
+- [ ] Data de entrega/prioridade compatível entre documento e sistema; divergência resolvida antes de processar.
+- [ ] Versão aprovada identificada e reconhecida pelo setor que recebeu.
+- [ ] Todas as alterações solicitadas estão presentes **no arquivo efetivo**.
+- [ ] Aplicações por peça/lado e variantes de linha/goleiro não foram copiadas automaticamente.
+- [ ] Código ou especificação de gola foi confirmado quando havia variantes de modelagem.
+- [ ] Após correção ou mudança tardia, revisão integral do pedido e arquivos derivados refeita.
+- [ ] A liberação da etapa e o registro da versão executada foram preservados.
+
+**Origem:** anotações de sistema, criação e transferência de 2026, com alcance e situação discriminados em [AUD-006](../governanca/AUDITORIA-MANUSCRITOS-V0.6.md). Os status formais de software ainda exigem confirmação.
