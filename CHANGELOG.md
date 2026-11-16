@@ -52,3 +52,11 @@ Todas as mudanças significativas na documentação do setor de arte são regist
 - Transcritos **141 itens com códigos únicos** em três arquivos Markdown por etapa.
 - Criada `governanca/AUDITORIA-CHECKLIST-141-V0.7.md`, com contagens por prefixo e tipo, limites de interpretação e pendências.
 - Atualizados índice, manual geral, resumo do checklist e registro de pendências.
+
+## [0.8.0-draft] — 2026-11-16
+
+- Inspeção visual das páginas **1–16 e 24–30** de `Notes 2.pdf`, complementando páginas 17–23 revisadas na v0.6.
+- Publicada [AUD-008](governanca/AUDITORIA-NOTES2-V0.8.md), inventariando as 30 páginas, suas categorias e limites interpretativos.
+- Adicionado [POP-DES-012](docs/12-CAMADAS-GRIDS-MOLDES.md) para controle de nome, camada, variante e integridade de objetos antes/depois do SISBolt.
+- Atualizados Manual Geral, checklist-base, índice e pendências.
+- Preservadas como históricas, não universais, referências de dimensões, nomenclaturas de moldes e tamanhos disponíveis.
