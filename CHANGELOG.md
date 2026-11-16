@@ -34,3 +34,12 @@ Todas as mudanças significativas na documentação do setor de arte são regist
 - Criada a auditoria de evidências `governanca/AUDITORIA-FONTES-V0.5.md`, com referências para fontes primárias, exceções e limites.
 - Checklist complementado com controles extraídos dos encontros e históricos.
 - Mantidas como pendência a transcrição exaustiva dos demais manuscritos e a recuperação das imagens mencionadas nos chats.
+
+## [0.6.0-draft] — 2026-11-16
+
+- Concluída a leitura visual das reuniões de arte-finalistas (8 páginas) e vendedores (5 páginas), com classificação das páginas sem relevância normativa direta.
+- Conferidas as páginas 17–23 de `Notes 2.pdf` e 1–11 de `Notes_240515_102603.pdf`.
+- Criado o inventário de achados `governanca/AUDITORIA-MANUSCRITOS-V0.6.md`, com referências de página e alcance das notas.
+- Adicionado o POP de estado do pedido, cancelamentos, versões e liberações entre setores.
+- Reforçados os checklists de Layout, Saída, Exportação e Impressão contra pedidos e arquivos desatualizados.
+- Mantidos como **pendências**, e não novos padrões, medidas históricas de faixa/gola e possíveis regras de marca por categoria.
